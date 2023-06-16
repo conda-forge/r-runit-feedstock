@@ -1,11 +1,11 @@
-About r-runit
-=============
+About r-runit-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-runit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=RUnit
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-runit-feedstock/blob/main/LICENSE.txt)
 
 Summary: R functions implementing a standard Unit Testing framework, with additional code inspection and report generation tools.
 
