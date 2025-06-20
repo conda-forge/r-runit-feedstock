@@ -1,4 +1,4 @@
-{% set version = "0.4.33" %}
+{% set version = "0.4.33.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RUnit_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RUnit/RUnit_{{ version }}.tar.gz
-  sha256: b2a4c5afc7ef9534dac5006f6ef1b2af68630bb73eb74ef70ec7ed53dae6cb5f
+  sha256: 8528fa3ba8d04a6e71783f01ba3e1163b5900c6b3c2bc81bad2349e220197f05
 
 build:
   noarch: generic
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
